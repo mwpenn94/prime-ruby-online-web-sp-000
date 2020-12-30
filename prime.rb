@@ -1,4 +1,9 @@
 # Add  code here!
 def prime?(n)  
-  (1..n).to_a
+  divisors = (1..(n-1).to_a 
+  if n % divisors != 0
+    return true
+  else 
+    return false
+  end
 end
