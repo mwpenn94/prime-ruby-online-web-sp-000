@@ -4,4 +4,5 @@ def prime?(n)
   divisors.none? {|div| n % div == 0}
   if n < 1
     return false
+  end
 end
